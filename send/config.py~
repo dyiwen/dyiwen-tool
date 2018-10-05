@@ -1,0 +1,10 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+from easydict import EasyDict as edict
+
+config = edict()
+config.IMAGE_ROOT = "/home/tx-deepocean/Downloads/test_data_dicom/"
+config.RESULT_ROOT = "/media/tx-deepocean/Data/output/CT/"
+config.JSON_ROOT = "/media/tx-deepocean/Data/json/"
+config.channel = "CT0"
+config.interval_seconds = 30

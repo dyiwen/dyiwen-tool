@@ -1,0 +1,5 @@
+search_pid 是查找截止日期的今日薄层预测病人号
+	　查找厚层可同过修改cmd中的频道号查询厚层
+	　薄层：channel = 'ct0'　，　厚层：channel = '5mm'
+
+search_CT_number 是查询ＣＴ目录下的数据量
